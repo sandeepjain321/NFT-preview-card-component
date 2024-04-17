@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: hsl(217, 54%, 11%);
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  width: 290px;
+
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 1rem;
+  padding: 15px;
+}
+
+img {
+  width: 290px;
+  border-radius: 1rem;
+}
+
+.about {
+  margin: 5px;
+}
+
+h3 {
+  color: hsl(0, 0%, 100%);
+}
+
+h3:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+p {
+  color: hsl(215, 51%, 70%);
+}
+
+.discription {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.discription img {
+  width: 17px;
+  margin-right: 3px;
+}
+
+.rate {
+  display: flex;
+  align-items: center;
+}
+.time {
+  display: flex;
+  align-items: center;
+}
+span {
+  color: hsl(215, 51%, 70%);
+}
+
+.fotter {
+  border: 0.25px solid skyblue;
+  margin: 20px;
+}
+
+.author img {
+  width: 40px;
+  margin-right: 4px;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+}
+span:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
